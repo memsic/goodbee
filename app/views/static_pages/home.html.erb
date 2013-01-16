@@ -14,11 +14,14 @@
     </div>
   </div>  
 <% else %>
-  <div class="center hero-unit">
-    <h1>Contribute to good deeds in your community and beyond.</h1>
-
-    <%= link_to "Get Started", signup_path, 
-                                class: "btn btn-large btn-primary" %>
-  </div>
-
+<script>
+  !function ($) {
+    $(function(){
+      // carousel demo
+      $('#myCarousel').carousel()
+    })
+  }(window.jQuery)
+</script>
+<%= render 'layouts/carousel' %>
+<%= render 'layouts/marketing' %>
 <% end %>
