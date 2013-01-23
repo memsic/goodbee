@@ -119,7 +119,7 @@ textarea {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .carousel .container {
@@ -150,19 +150,24 @@ textarea {
 .carousel-caption {
   background-color: transparent;
   position: static;
-  max-width: 550px;
+  max-width: 900px;
   padding: 0 20px;
   margin-top: 100px;
 }
 .carousel-caption h1,
 .carousel-caption .lead {
-  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
   line-height: 1.25;
   color: #fff;
   text-shadow: 0 1px 1px rgba(0,0,0,.4);
 }
 .carousel-caption .btn {
-  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.carousel-caption h3, {
+  display: inline;
 }
 
 /* MARKETING CONTENT
@@ -178,6 +183,12 @@ textarea {
 .marketing .span4 p {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+/* Center align the headline */
+.marketing h1 {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 /* Featurettes
@@ -221,6 +232,10 @@ textarea {
 .thumbnails h1 {
   text-align: center;
   margin-bottom: 30px;
+}
+
+.thumbnails {
+   text-align: center;
 }
 
 /* RESPONSIVE CSS
